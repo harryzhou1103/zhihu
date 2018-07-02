@@ -1,7 +1,14 @@
 <html>
 <body>
 <pre>
-    colors = $!{colors}
+    app works!
+    #macro(render_color, $index, $color)
+        Color Render Macro $index, $color
+    #end
+    app works!
+    #foreach($color in $colors)
+        #render_color($foreach.index, $color)
+    #end
 </pre>
 </body>
 </html>

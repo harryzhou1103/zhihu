@@ -1,4 +1,5 @@
 package com.zhihu.controller;
+import com.zhihu.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
