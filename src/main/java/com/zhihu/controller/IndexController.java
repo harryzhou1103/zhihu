@@ -23,12 +23,6 @@ public class IndexController {
     @Autowired
     ZhihuService zhihuService;
 
-//    @RequestMapping(path = {"/", "/index"}, method = {RequestMethod.GET})
-//    @ResponseBody
-//    public String index(HttpSession httpSession) {
-//        logger.info("VISIT HOME");
-//        return zhihuService.getMessage(2) + "Hello NowCoder" + httpSession.getAttribute("msg");
-//    }
 
     @RequestMapping(path = {"/profile/{groupId}/{userId}"})
     @ResponseBody

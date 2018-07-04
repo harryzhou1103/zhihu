@@ -4,13 +4,14 @@ import lombok.Data;
 
 @Data
 public class User {
-    private String id;
+    private int id;
     private String name;
     private String password;
     private String salt;
     private String headUrl;
 
-    public User(String id) {
-        this.id = id;
+    public User() {}
+    public User(String name) {
+        this.name = name;
     }
 }
