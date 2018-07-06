@@ -1,10 +1,7 @@
 package com.zhihu.controller;
 
-
-import com.zhihu.model.Comment;
-import com.zhihu.model.HostHolder;
-import com.zhihu.model.Question;
-import com.zhihu.model.ViewObject;
+import com.zhihu.model.*;
+import com.zhihu.service.CommentService;
 import com.zhihu.service.QuestionService;
 import com.zhihu.service.UserService;
 import com.zhihu.util.ZhihuUtil;
@@ -48,7 +45,6 @@ public class QuestionController {
             vos.add(vo);
         }
         model.addAttribute("comments", vos);
-
         return "detail";
     }
 
