@@ -1,5 +1,5 @@
 # zhihu
-Framework: SpringBoot, MyBatis
+Framework: SpringBoot, MyBatis<br>
 Database: MySQL
 
 It's a zhihu(the biggest question and answer forum in China)-like web application.<br>
