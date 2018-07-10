@@ -9,5 +9,6 @@ It's a zhihu(the biggest question and answer forum in China)-like web applicatio
 ** Send private messages<br>
 ** Applied sensitive words filter<br>
 ** Used MyBatis to connect to the MySQL database<br>
+** Used Jedis to connect to the Redis database. It's used to support the like and dislike part.<br>
 
 #### More functionalities are still under development
