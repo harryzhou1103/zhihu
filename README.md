@@ -1,6 +1,6 @@
 # zhihu
 Framework: SpringBoot, MyBatis<br>
-Database: MySQL
+Database: MySQL, Redis
 
 It's a zhihu(the biggest question and answer forum in China)-like web application.<br>
 ### It has the following funtionalities :<br>
